@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $.ajax({
-    url: "https://cdn.rawgit.com/shaikatssj/sahifa/safia/index.txt", 
+    url: urp, 
     dataType: 'text', 
     success: function(data) { 
       $("#sentences").html(data);
